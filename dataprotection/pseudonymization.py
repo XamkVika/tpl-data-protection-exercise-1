@@ -9,17 +9,15 @@ TODO:
 def pseudonymize_names(names):
     """
     TODO: Encrypt each name with Fernet symmetric encryption.
-    - print encrypted names
     - return list of encrypted names
     """
 
     pass
 
 
-def restore_names(encrypted: list[str]) -> list[str]:
+def restore_names(encrypted):
     """
     TODO: Decrypt previously pseudonymized names.
-    - print decrypted names
     - return list of decrypted names
     """
 

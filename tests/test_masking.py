@@ -4,7 +4,7 @@ from pathlib import Path
 # Add the project root to sys.path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from masking import mask
+from dataprotection.masking import mask
 
 def test_masking():
     people = [

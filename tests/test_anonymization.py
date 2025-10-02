@@ -4,7 +4,7 @@ from pathlib import Path
 # Add the project root to sys.path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from anonymization import anonymize
+from dataprotection.anonymization import anonymize
 
 def test_anonymization():
     people = [
