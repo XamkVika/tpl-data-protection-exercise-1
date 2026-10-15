@@ -45,4 +45,4 @@ pip install -r requirements.txt
 
 ## Note
 
-👉 In main.py, the `“if __name__ == "__main__":` makes sure code only runs when the file is executed directly, not when it’s imported for testing.# tpl-data-protection-exercise-1
+👉 In main.py, the `“if __name__ == "__main__":` makes sure code only runs when the file is executed directly, not when it’s imported for testing.
